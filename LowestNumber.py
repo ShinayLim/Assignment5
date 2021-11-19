@@ -6,3 +6,11 @@ def insertNumber():
     number2 = int(input('Enter Second number : '))
     number3 = int(input('Enter Third number : '))
 
+def highest(number1, number2, number3):
+    if (number1 > number2) and (number1 > number3):
+        largestNum = number1
+    elif (number2 > number1) and (number2 > number3):
+        largestNum = number2
+    else:
+        largestNum = number3
+    print("The largest of the 3 numbers is : ", largestNum)
