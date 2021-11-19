@@ -35,6 +35,7 @@ def inputGrade():
     return mark
 
 def otherRemarks():
+    print("\n")
     answer = input("Did you get an INC, W, or D as your mark? ").upper()
     if answer == "YES":
         print("\n")
