@@ -2,9 +2,9 @@ def insertNumber():
     global number1
     global number2
     global number3
-    number1 = int(input('Enter First number : '))
-    number2 = int(input('Enter Second number : '))
-    number3 = int(input('Enter Third number : '))
+    number1 = int(input('Enter First number : \n'))
+    number2 = int(input('Enter Second number : \n'))
+    number3 = int(input('Enter Third number : \n'))
 
 def highest(number1, number2, number3):
     if (number1 > number2) and (number1 > number3):
