@@ -33,3 +33,4 @@ def inputGrade():
     else:
         print("Unrecognized answer please check if you input correct grade.")
     return mark
+inputGrade()
