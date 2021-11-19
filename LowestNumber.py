@@ -23,3 +23,7 @@ def lowest(number1, number2, number3):
     else:
         smallestNum = number3
     print("The smallest of the 3 numbers is : ", smallestNum)
+
+insertNumber()
+highest(number1, number2, number3)
+lowest(number1, number2, number3)
