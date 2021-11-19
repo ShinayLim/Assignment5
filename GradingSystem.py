@@ -39,7 +39,6 @@ def otherRemarks():
     if answer == "YES":
         print('\033[1m' + 'INCOMPLETE' + '\033[0m')
         print("An Incomplete (Inc.) mark is temporarily given to a student who may qualify for passing but has not taken any major exam or its equivalent. ")
-        print("/n")
         print('\033[1m' + 'WITHDRAWN' + '\033[0m')
         print("A Withdrawn Mark is given if the student voluntarily withdraws in writing from a subject at any time but not less than one (1) month before the final examination.")
         print('\033[1m' + 'DROPPPED' + '\033[0m')
