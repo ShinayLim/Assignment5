@@ -37,14 +37,17 @@ def inputGrade():
 def otherRemarks():
     answer = input("Did you get an INC, W, or D as your mark? ").upper()
     if answer == "YES":
+        print("\n")
         print('\033[1m' + 'INCOMPLETE' + '\033[0m')
-        print("An Incomplete (Inc.) mark is temporarily given to a student who may qualify for passing but has not taken any major exam or its equivalent. \n")
+        print("An Incomplete (Inc.) mark is temporarily given to a student who may \nqualify for passing but  has  not  taken  any  major  exam  or  its  \nequivalent. \n" )
         print('\033[1m' + 'WITHDRAWN' + '\033[0m')
-        print("A Withdrawn Mark is given if the student voluntarily withdraws in writing from a subject at any time but not less than one (1) month before the final examination. \n")
+        print("A Withdrawn Mark is given if the student voluntarily withdraws in writing \nfrom a subject at any time but not less than one (1) month before the final examination.\n")
         print('\033[1m' + 'DROPPPED' + '\033[0m')
-        print("A  Dropped  Mark  is  given  when  the  faculty  member  drops  the  student  from his/her roll for having exceeded the allowable number of absences or for not having attended the class since the start of the term. \n")
+        print("A  Dropped  Mark  is  given  when  the  faculty  member  drops  the  student  from his/her roll for having exceeded the allowable number of absences or for not having attended the class since the start of the term.\n")
     elif answer == "NO":
-        print('\033[1m' + 'Congratulations!' + '\033[0m' " You passed this semester, we are proud of you!")
+        print("Congratulations! You passed this semester, we are proud of you!")
+    else:
+        print("Invalid answer.")
     return answer
 
 inputGrade()
