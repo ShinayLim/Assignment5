@@ -50,7 +50,7 @@ def otherRemarks():
         print('\033[1m' + 'DROPPPED' + '\033[0m')
         print("A  Dropped  Mark  is  given  when  the  faculty  member  drops  the  student \nfrom his/her roll for having exceeded the allowable number of absences or for \nnot having attended the class since the start of the term.\n")
     elif answer == "NO":
-        print('\033[1m' + 'CONGRATULATIONS' + '\033[0m' "You passed this semester, we are proud of you!")
+        print('\033[1m' + 'CONGRATULATIONS' + '\033[0m' " You passed this semester, we are proud of you!")
     else:
         print("Invalid answer.")
     return answer
